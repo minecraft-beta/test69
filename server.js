@@ -6,7 +6,7 @@ const PORT = 8080;
 
 app.use(express.static(path.join(__dirname, 'public')))
 
-const server = new WebSocket.Server({ port: 8080 });
+const server = new WebSocket.Server({ port: 6969 });
 
 server.on('connection', (ws) => {
     console.log('Client connected');
